@@ -5,7 +5,9 @@
 """
 # coding=utf-8
 import logging
-import os,time
+import logging.handlers
+import os.path
+import time
 
 class Logger():
 
@@ -15,11 +17,17 @@ class Logger():
 
         # 创建一个handle，用于写入日志文件
         rq = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
-        log_path = os.path.dirname(os.path.abspath('.')) + '/logs/'
+        #一行log路径的代码错误，搞了几天。
+        # log_path = os.path.dirname(os.path.abspath('.')) + '/logs/'
+        log_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/logs/'
+        print(log_path)
         log_name = log_path + rq + '.log'  #拼装日志名
-        fh = logging.FileHandler(log_name) #文件对象
+        # 实例化handler
+        fh = logging.handlers.RotatingFileHandler(log_name, maxBytes=1024 * 1024, backupCount=5,
+                                                  encoding='utf-8')
         fh.setLevel(logging.INFO)
-
+       
+        
         # 再创建一个handler,用于输出到控制台
         ch = logging.StreamHandler()
         ch.setLevel(logging.INFO)

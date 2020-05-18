@@ -4,7 +4,8 @@
 @Time:
 """
 # coding=utf-8
-import os,configparser
+import configparser
+import os.path
 from selenium import webdriver
 from framework.logger import Logger
 
@@ -12,7 +13,9 @@ logger = Logger(logger="BrowserEngine").getlog()
 
 class BrowserEngine(object):
     """定义一个引擎类"""
-    dir = os.path.dirname(os.path.dirname(os.path.abspath('__file__')))  #获取项目所在路径
+    # dir = os.path.dirname(os.path.abspath('.'))
+    dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  #获取项目所在路径
+    print(dir)
     chrome_driver_path = dir + '/tools/chromedriver.exe'   #拼装驱动路径
     firefox_driver_path = dir + '/tools/geckodriver.exe'
     # webdriver.Firefox(executable_path=self.firefox_driver_path)
@@ -24,7 +27,8 @@ class BrowserEngine(object):
     def open_browser(self,driver):
         config = configparser.ConfigParser()
         # 拼装配置文件绝对路径
-        file_path = os.path.dirname(os.path.dirname(os.path.abspath('__file__'))) + '\config\config.ini'
+        file_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '\config\config.ini'
+        print(file_path)
         config.read(file_path)
 
         browser = config.get("browserType","browserName")

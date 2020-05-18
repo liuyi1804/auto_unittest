@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>PHR运营端回归测试报告</title>
+    <title>PHR运营端测试报告</title>
     <meta name="generator" content="HTMLTestRunner 0.9.1"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -12,7 +12,7 @@
     
     
 <style type="text/css" media="screen">
-    body        { font-family: Microsoft YaHei,Consolas,arial,sans-serif; font-size: 80%; }
+    body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica，sans-serif; padding: 20px；font-size: 80%; }
     table       { font-size: 100%; }
     pre         { white-space: pre-wrap;word-wrap: break-word; }
 
@@ -32,8 +32,8 @@
     }
 
     .heading .description {
-        margin-top: 2ex;
-        margin-bottom: 3ex;
+        margin-top: 4ex;
+        margin-bottom: 6ex;
     }
 
     /* -- css div popup ------------------------------------------------------------------------ */
@@ -73,9 +73,9 @@
         background-color: #ebebeb;
     }
     #total_row  { font-weight: bold; }
-    .passClass  { background-color: #bdedbc; }
-    .failClass  { background-color: #ffefa4; }
-    .errorClass { background-color: #ffc9c9; }
+    .passClass  { background-color: #5cb85c; }
+    .failClass  { background-color: #d9534f; }
+    .errorClass { background-color: #f0ad4e; }
     .passCase   { color: #6c6; }
     .failCase   { color: #FF6600; font-weight: bold; }
     .errorCase  { color: #c00; font-weight: bold; }
@@ -199,18 +199,18 @@
     <div id="div_base">
         
     <div class='page-header'>
-        <h1>PHR运营端回归测试报告</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2020-03-23 16:17:55</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:00.000965</p>
-<p class='attribute'><strong>状态:</strong> 错误 2</p>
+        <h1>PHR运营端测试报告</h1>
+    <p class='attribute'><strong>开始时间:</strong> 2020-05-18 12:03:42</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:25.471072</p>
+<p class='attribute'><strong>状态:</strong> 通过 2</p>
 
     </div>
-    <div style="float: left;width:50%;"><p class='description'>运行环境：Windows 10, Chrome/FireFox</p></div>
+    <div style="float: left;width:50%;"><p class='description'>用例测试情况</p></div>
     <div id="chart" style="width:50%;height:400px;float:left;"></div>
 
         
     <div class="btn-group btn-group-sm">
-        <button class="btn btn-default" onclick='javascript:showCase(0)'>总结</button>
+        <button class="btn btn-default" onclick='javascript:showCase(0)'>总计</button>
         <button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
         <button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
     </div>
@@ -233,42 +233,31 @@
             <td>查看</td>
         </tr>
         
-    <tr class='errorClass'>
-        <td>unittest.loader._FailedTest</td>
+    <tr class='passClass'>
+        <td>test_PHR_Login.TestLogin</td>
+        <td>2</td>
         <td>2</td>
         <td>0</td>
         <td>0</td>
-        <td>2</td>
         <td><a href="javascript:showClassDetail('c1',2)">详情</a></td>
     </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_PHR_Login</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_Login_0_user</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        错误</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a>
 
-    <div id='div_ft1.1' class="popup_window">
-        <pre>ft1.1: ImportError: Failed to import test module: test_PHR_Login
-Traceback (most recent call last):
-  File "C:\Program Files (x86)\Python37-32\lib\unittest\loader.py", line 434, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "C:\Program Files (x86)\Python37-32\lib\unittest\loader.py", line 375, in _get_module_from_name
-    __import__(name)
-  File "E:\selenium+python\auto_unittest\testsuits\test_PHR_Login.py", line 14, in &lt;module&gt;
-    from framework.browser_engine import BrowserEngine
-  File "E:\selenium+python\auto_unittest\framework\browser_engine.py", line 12, in &lt;module&gt;
-    logger = Logger(logger="BrowserEngine").getlog()
-  File "E:\selenium+python\auto_unittest\framework\logger.py", line 20, in __init__
-    fh = logging.FileHandler(log_name) #文件对象
-  File "C:\Program Files (x86)\Python37-32\lib\logging\__init__.py", line 1041, in __init__
-    StreamHandler.__init__(self, self._open())
-  File "C:\Program Files (x86)\Python37-32\lib\logging\__init__.py", line 1070, in _open
-    return open(self.baseFilename, self.mode, encoding=self.encoding)
-FileNotFoundError: [Errno 2] No such file or directory: 'E:\\selenium+python\\logs\\20200323161755.log'
-
+    <div id='div_pt1.1' class="popup_window">
+        <pre>pt1.1: //*[@class='el-input__inner' and @type='text']
+&lt;selenium.webdriver.remote.webelement.WebElement (session="6a23c6dca34c6910117e2648da7d636f", element="2f52cb62-dd50-40cc-8525-e8935a247849")&gt;
+//*[@class='el-input__inner' and @type='password']
+&lt;selenium.webdriver.remote.webelement.WebElement (session="6a23c6dca34c6910117e2648da7d636f", element="c6c95f71-53ff-4956-80dc-ac075454e99d")&gt;
+//*[@class='el-button el-button--primary el-button--large']
+&lt;selenium.webdriver.remote.webelement.WebElement (session="6a23c6dca34c6910117e2648da7d636f", element="97a1c725-f203-4dc1-b7b3-12f3709bb6af")&gt;
+登录失败 
 </pre>
     </div>
     <!--css div popup end-->
@@ -276,33 +265,22 @@ FileNotFoundError: [Errno 2] No such file or directory: 'E:\\selenium+python\\lo
     </td>
 </tr>
 
-<tr id='ft1.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_baidulist</div></td>
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_Login_1_admin</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        错误</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过</a>
 
-    <div id='div_ft1.2' class="popup_window">
-        <pre>ft1.2: ImportError: Failed to import test module: test_baidulist
-Traceback (most recent call last):
-  File "C:\Program Files (x86)\Python37-32\lib\unittest\loader.py", line 434, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "C:\Program Files (x86)\Python37-32\lib\unittest\loader.py", line 375, in _get_module_from_name
-    __import__(name)
-  File "E:\selenium+python\auto_unittest\testsuits\test_baidulist.py", line 16, in &lt;module&gt;
-    from framework.browser_engine import BrowserEngine
-  File "E:\selenium+python\auto_unittest\framework\browser_engine.py", line 12, in &lt;module&gt;
-    logger = Logger(logger="BrowserEngine").getlog()
-  File "E:\selenium+python\auto_unittest\framework\logger.py", line 20, in __init__
-    fh = logging.FileHandler(log_name) #文件对象
-  File "C:\Program Files (x86)\Python37-32\lib\logging\__init__.py", line 1041, in __init__
-    StreamHandler.__init__(self, self._open())
-  File "C:\Program Files (x86)\Python37-32\lib\logging\__init__.py", line 1070, in _open
-    return open(self.baseFilename, self.mode, encoding=self.encoding)
-FileNotFoundError: [Errno 2] No such file or directory: 'E:\\selenium+python\\logs\\20200323161755.log'
-
+    <div id='div_pt1.2' class="popup_window">
+        <pre>pt1.2: //*[@class='el-input__inner' and @type='text']
+&lt;selenium.webdriver.remote.webelement.WebElement (session="6a23c6dca34c6910117e2648da7d636f", element="2f52cb62-dd50-40cc-8525-e8935a247849")&gt;
+//*[@class='el-input__inner' and @type='password']
+&lt;selenium.webdriver.remote.webelement.WebElement (session="6a23c6dca34c6910117e2648da7d636f", element="c6c95f71-53ff-4956-80dc-ac075454e99d")&gt;
+//*[@class='el-button el-button--primary el-button--large']
+&lt;selenium.webdriver.remote.webelement.WebElement (session="6a23c6dca34c6910117e2648da7d636f", element="97a1c725-f203-4dc1-b7b3-12f3709bb6af")&gt;
+登录成功
 </pre>
     </div>
     <!--css div popup end-->
@@ -313,14 +291,18 @@ FileNotFoundError: [Errno 2] No such file or directory: 'E:\\selenium+python\\lo
         <tr id='total_row'>
             <td>总计</td>
             <td>2</td>
-            <td>0</td>
-            <td>0</td>
             <td>2</td>
+            <td>0</td>
+            <td>0</td>
             <td>&nbsp;</td>
         </tr>
     </table>
 
         <div id='ending'>&nbsp;</div>
+        <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+        <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+        </span></a></div>
+        
         
     <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
@@ -349,9 +331,9 @@ FileNotFoundError: [Errno 2] No such file or directory: 'E:\\selenium+python\\lo
                     radius : '60%',
                     center: ['50%', '60%'],
                     data:[
-                        {value:0, name:'通过'},
+                        {value:2, name:'通过'},
                         {value:0, name:'失败'},
-                        {value:2, name:'错误'}
+                        {value:0, name:'错误'}
                     ],
                     itemStyle: {
                         emphasis: {

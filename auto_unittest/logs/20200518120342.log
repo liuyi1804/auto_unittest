@@ -1,0 +1,17 @@
+2020-05-18 12:03:42,518 - BrowserEngine - INFO - You had select Chrome browser.
+2020-05-18 12:03:42,518 - BrowserEngine - INFO - The test server url is: http://dev.aijiayi.com/
+2020-05-18 12:03:48,213 - BrowserEngine - INFO - Starting Chrome browser.
+2020-05-18 12:03:49,458 - BrowserEngine - INFO - Open url: http://dev.aijiayi.com/
+2020-05-18 12:03:53,679 - BasePage - INFO - Had find the element  successful by xpath via value: //*[@class='el-input__inner' and @type='text']
+2020-05-18 12:03:53,829 - BasePage - INFO - Had type user in inputBox
+2020-05-18 12:03:53,885 - BasePage - INFO - Had find the element  successful by xpath via value: //*[@class='el-input__inner' and @type='password']
+2020-05-18 12:03:54,087 - BasePage - INFO - Had type 123456 in inputBox
+2020-05-18 12:03:54,142 - BasePage - INFO - Had find the element 登录 successful by xpath via value: //*[@class='el-button el-button--primary el-button--large']
+2020-05-18 12:03:54,228 - BasePage - INFO - The element <selenium.webdriver.remote.webelement.WebElement (session="6a23c6dca34c6910117e2648da7d636f", element="97a1c725-f203-4dc1-b7b3-12f3709bb6af")> was clicked.
+2020-05-18 12:03:59,773 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2020-05-18 12:03:59,795 - BasePage - INFO - Had find the element  successful by xpath via value: //*[@class='el-input__inner' and @type='text']
+2020-05-18 12:04:00,111 - BasePage - INFO - Had type admin in inputBox
+2020-05-18 12:04:00,137 - BasePage - INFO - Had find the element  successful by xpath via value: //*[@class='el-input__inner' and @type='password']
+2020-05-18 12:04:00,519 - BasePage - INFO - Had type 111111 in inputBox
+2020-05-18 12:04:00,602 - BasePage - INFO - Had find the element 登录 successful by xpath via value: //*[@class='el-button el-button--primary el-button--large']
+2020-05-18 12:04:00,663 - BasePage - INFO - The element <selenium.webdriver.remote.webelement.WebElement (session="6a23c6dca34c6910117e2648da7d636f", element="97a1c725-f203-4dc1-b7b3-12f3709bb6af")> was clicked.

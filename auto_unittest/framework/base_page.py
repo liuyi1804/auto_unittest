@@ -1,11 +1,11 @@
 from selenium.common.exceptions import NoSuchWindowException
 import time,sys
-import os.path
-
-# sys.path.insert(0,dirname(dirname(abspath(__file__)))) # 返回根目录的方法
-sys.path.append("../framework/")
-from framework.logger import Logger # 导入logger中的Logger类
 from selenium.common.exceptions import NoSuchElementException
+import os.path
+# sys.path.insert(0,dirname(dirname(abspath(__file__)))) # 返回根目录的方法
+# sys.path.append("./auto_unittest/")
+from framework.logger import Logger # 导入logger中的Logger类
+
 
 # 创建日志
 logger = Logger(logger='BasePage').getlog()
