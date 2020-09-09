@@ -19,3 +19,9 @@ class LoginPage(BasePage):
 
 	def login_button(self):
 		self.click(self.login_btn)
+	
+	# 公共登录方法
+	def loginFunc(self, account='admin', password='123456'):
+		self.account_input(account)
+		self.password_input(password)
+		self.login_button()

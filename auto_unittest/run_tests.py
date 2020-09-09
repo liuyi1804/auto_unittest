@@ -18,7 +18,7 @@ def send_mail(html_path):
 
 report_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'reports/')
 # print(report_path)
-now_time = time.strftime("%Y-%m-%d-%H_%M_%S") # 当前时间
+now_time = time.strftime("%Y-%m-%d-%H-%M-%S") # 当前时间
 html_name = './reports/' + now_time + "report.html" # 生成报告名称
 fp = open(html_name, 'wb') # 打开报告读取数据
 
@@ -34,7 +34,7 @@ print("测试报告", html_name)
 
 
 if __name__ == '__main__':
-    runner = HTMLTestRunner_PY3.HTMLTestRunner(stream=fp, title="PHR运营端测试报告", description="用例测试情况")
+    runner = HTMLTestRunner_PY3.HTMLTestRunner(stream=fp, title="PHR运营端测试报告", description="用例执行情况")
     # runner = unittest.TextTestRunner()
     runner.run(test_suite)
     fp.close()

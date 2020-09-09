@@ -1,0 +1,17 @@
+2020-08-27 10:32:59,170 - BrowserEngine - INFO - You had select Edge browser.
+2020-08-27 10:32:59,170 - BrowserEngine - INFO - The test server url is: http://dev.aijiayi.com/
+2020-08-27 10:33:03,452 - BrowserEngine - INFO - Starting Edge browser.
+2020-08-27 10:33:04,351 - BrowserEngine - INFO - Open url: http://dev.aijiayi.com/
+2020-08-27 10:33:06,540 - BasePage - INFO - Had find the element  successful by xpath via value: //*[@class='el-input__inner' and @type='text']
+2020-08-27 10:33:06,667 - BasePage - INFO - Had type user in inputBox
+2020-08-27 10:33:06,708 - BasePage - INFO - Had find the element  successful by xpath via value: //*[@class='el-input__inner' and @type='password']
+2020-08-27 10:33:06,910 - BasePage - INFO - Had type 123456 in inputBox
+2020-08-27 10:33:06,958 - BasePage - INFO - Had find the element 登录 successful by xpath via value: //*[@class='el-button el-button--primary el-button--large']
+2020-08-27 10:33:07,021 - BasePage - INFO - The element <selenium.webdriver.remote.webelement.WebElement (session="1dd2ba5ca7e2eac772bb99495a632f47", element="50052f3d-b1f1-49f3-baf7-e2f9627dccde")> was clicked.
+2020-08-27 10:33:12,509 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2020-08-27 10:33:12,531 - BasePage - INFO - Had find the element  successful by xpath via value: //*[@class='el-input__inner' and @type='text']
+2020-08-27 10:33:12,656 - BasePage - INFO - Had type admin in inputBox
+2020-08-27 10:33:12,683 - BasePage - INFO - Had find the element  successful by xpath via value: //*[@class='el-input__inner' and @type='password']
+2020-08-27 10:33:12,804 - BasePage - INFO - Had type 111111 in inputBox
+2020-08-27 10:33:12,832 - BasePage - INFO - Had find the element 登录 successful by xpath via value: //*[@class='el-button el-button--primary el-button--large']
+2020-08-27 10:33:12,870 - BasePage - INFO - The element <selenium.webdriver.remote.webelement.WebElement (session="1dd2ba5ca7e2eac772bb99495a632f47", element="50052f3d-b1f1-49f3-baf7-e2f9627dccde")> was clicked.
