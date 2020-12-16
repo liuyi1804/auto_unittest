@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be9ed54c-d808-445a-947b-147731121306" name="Default Changelist" comment="" />
+    <list default="true" id="be9ed54c-d808-445a-947b-147731121306" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +30,7 @@
     <SUITE FILE_PATH="coverage/auto_untitest$Unittests_in_test_baidulist_py.coverage" NAME="Unittests in test_baidulist.py Coverage Results" MODIFIED="1584696311222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
     <SUITE FILE_PATH="coverage/test_po$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1584604502802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_untitest$Unittests_for_test_baidulist_BaiduList.coverage" NAME="Unittests for test_baidulist.BaiduList Coverage Results" MODIFIED="1584696289752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
-    <SUITE FILE_PATH="coverage/auto_unittest$Unittests_in_test_PHR_Login_py.coverage" NAME="Unittests in test_PHR_Login.py Coverage Results" MODIFIED="1597115068847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
+    <SUITE FILE_PATH="coverage/auto_unittest$Unittests_in_test_PHR_Login_py.coverage" NAME="Unittests in test_PHR_Login.py Coverage Results" MODIFIED="1607071970093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
     <SUITE FILE_PATH="coverage/test_po$Unittests_in_test_poium_login_py.coverage" NAME="Unittests in test_poium_login.py Coverage Results" MODIFIED="1584586180169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
     <SUITE FILE_PATH="coverage/auto_unittest$Unittests_for_test_PHR_Login_TestLogin_test_Login02.coverage" NAME="Unittests for test_PHR_Login.TestLogin.test_Login02 Coverage Results" MODIFIED="1589446212485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
     <SUITE FILE_PATH="coverage/auto_unittest$base_page.coverage" NAME="base_page Coverage Results" MODIFIED="1585884874560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
@@ -41,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testsuits/test_PHR_Login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="357">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding>
                 <element signature="e#53#92#0" expanded="true" />
               </folding>
@@ -50,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pageobjects/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
@@ -59,14 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-              <folding>
-                <element signature="e#62#71#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -101,6 +100,9 @@
       <find>总计</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/framework/myunittest.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -133,19 +135,30 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="57" />
     <option name="y" value="80" />
     <option name="width" value="1172" />
     <option name="height" value="604" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="auto_unittest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,13 +326,11 @@
       <workItem from="1597054536586" duration="865000" />
       <workItem from="1597111047889" duration="6261000" />
       <workItem from="1597286634907" duration="245000" />
+      <workItem from="1607071933445" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_PHR_Login_py - 2020.06.03 at 16h 13m 11s.xml">
-      <configuration name="Unittests in test_PHR_Login.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_PHR_Login_py - 2020.06.03 at 16h 25m 44s.xml">
       <configuration name="Unittests in test_PHR_Login.py" configurationId="tests" />
     </history-entry>
@@ -347,9 +358,12 @@
     <history-entry file="Unittests_in_test_PHR_Login_py - 2020.08.11 at 11h 04m 59s.xml">
       <configuration name="Unittests in test_PHR_Login.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_PHR_Login_py - 2020.12.04 at 16h 53m 01s.xml">
+      <configuration name="Unittests in test_PHR_Login.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226553000" />
+    <option name="totallyTimeSpent" value="226616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,9 +375,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="80" width="1172" height="604" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49493244" visible="true" weight="0.3061594" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49493244" visible="true" weight="0.2625571" />
       <window_info id="Structure" order="1" sideWeight="0.5050676" side_tool="true" weight="0.24809742" />
       <window_info id="Favorites" order="2" sideWeight="0.50239235" side_tool="true" weight="0.23913044" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -612,20 +627,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testsuits/test_PHR_Login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="357">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
             <element signature="e#53#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="e#62#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -634,6 +639,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
